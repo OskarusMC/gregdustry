@@ -1,0 +1,8 @@
+name: limestone
+description: "a sedimentary rock oftentimes used for building purposes and as a material refining flux"
+hardness: 1
+cost: 1
+alwaysUnlocked: true
+color: D9D3C7
+research: Solid-Materials
+hiddenOnPlanets: [serpulo, erekir]

@@ -1,0 +1,8 @@
+name: Clay
+description: "material commonly found in soil often used in ceramics and the making of bricks. No not that clay from Nexo Knights"
+hardness: 1
+cost: 1
+alwaysUnlocked: true
+color: B66A50
+research: Solid-Materials
+hiddenOnPlanets: [serpulo, erekir]

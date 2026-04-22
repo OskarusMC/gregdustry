@@ -1,0 +1,6 @@
+name: Copper
+description: "A higly conductive metal, used in: electronic and mechanical parts; the production of brass. Doesn't come from create."
+cost: 2
+color: D9D3C7
+research: limestone
+hiddenOnPlanets: [serpulo, erekir]

@@ -1,0 +1,7 @@
+name: Ceramics
+description: "Ceramic materials, commonly used in electronic parts. Made from clay. Don't eat out of them."
+hardness: 1
+cost: 2
+color: B66A50
+research: Solid-Materials
+hiddenOnPlanets: [serpulo, erekir]

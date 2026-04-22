@@ -1,0 +1,7 @@
+name: Bricks
+description: "Bricks made from firing clay. Mfs alergic to peanut butter when i hit them in the head with a brick *dies*"
+hardness: 1
+cost: 2
+color: B66A50
+research: Clay
+hiddenOnPlanets: [serpulo, erekir]

@@ -1,0 +1,10 @@
+name: uranium
+description: "A highly radioactive material used in reactors... But aslo warcrimes if you're quirky like that"
+hardness: 1
+cost: 10
+radioactivity: 1
+explosiveness: 0.1
+charge: 0.1
+color: 73FF7C
+research: Solid-Materials
+hiddenOnPlanets: [serpulo, erekir]

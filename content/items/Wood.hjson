@@ -1,0 +1,8 @@
+name: Wood
+description: "Wood, commonly cut from trees, aslo grown in bioreclamation domes. This wood doesn't have resin. Sucked dry like Johnny"
+hardness: 1
+cost: 1.2
+flamability: 1
+color: 73FF7C
+research: Resinified-Wood
+hiddenOnPlanets: [serpulo, erekir]
