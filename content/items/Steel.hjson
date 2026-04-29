@@ -1,8 +1,6 @@
-name: limestone
-description: "a sedimentary rock oftentimes used for building purposes and as a material refining flux"
-hardness: 1
-cost: 1
-alwaysUnlocked: true
-color: D9D3C7
-research: Solid-Materials
+name: Steel
+description: "An alloy of iron and carbon (contained within organic material), stronger than iron. Used in construction. As one blue shirted man once said \"Flint and steel.\""
+cost: 10
+color: BBBEBD
+research: Iron
 hiddenOnPlanets: [serpulo, erekir]

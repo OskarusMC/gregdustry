@@ -1,7 +1,6 @@
-name: limestone
-description: "a sedimentary rock oftentimes used for building purposes and as a material refining flux"
-hardness: 1
-cost: 1
-color: D9D3C7
-research: Solid-Materials
+name: Iron
+description: "A strong and magnetic material, often used in construcion. Ironic isn't it? *exquisite laughter*"
+cost: 4
+color: D4D7D9
+research: Limestone
 hiddenOnPlanets: [serpulo, erekir]

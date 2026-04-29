@@ -1,7 +1,6 @@
 name: Gold
 description: "A shining and highly conductive material used in electronics. \"We're RICH We're RICH\"- a dwarf somewhere out there"
-hardness: 1
-cost: 1
-color: D9D3C7
+cost: 6
+color: FFD700
 research: Copper
 hiddenOnPlanets: [serpulo, erekir]

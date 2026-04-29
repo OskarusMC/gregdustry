@@ -1,8 +1,6 @@
-name: limestone
-description: "a sedimentary rock oftentimes used for building purposes and as a material refining flux"
-hardness: 1
-cost: 1
-alwaysUnlocked: true
-color: D9D3C7
-research: Solid-Materials
+name: platinum
+description: "Dense, melleable, and highly corrosion-resistant precious metal. Aslo makes for the best armour before EoC"
+cost: 8
+color: E5E4E2
+research: Iron
 hiddenOnPlanets: [serpulo, erekir]
