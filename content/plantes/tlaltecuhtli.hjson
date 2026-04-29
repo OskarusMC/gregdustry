@@ -42,7 +42,7 @@ mesh: [
 cloudMesh: [
   {
    type: HexSkyMesh
-   planet: trecara
+   planet: tlaltecuhtli
    speed: 0.891
    radius: 0.091
    divisions: 6
