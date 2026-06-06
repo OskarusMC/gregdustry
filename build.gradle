@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+version '1.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // This looks dynamically inside your local computer's Mindustry game system data
+    compileOnly fileTree(dir: System.getProperty("user.home") + "/AppData/Roaming/Mindustry/mods/gregdustry/libs", include: ["*.jar"])
+    compileOnly fileTree(dir: System.getProperty("user.home") + "/AppData/Roaming/Mindustry/libs", include: ["*.jar"])
+}
+
+sourceSets {
+    main {
+        java { srcDirs = ['core/src'] }
+        resources { srcDirs = ['assets'] }
+    }
+}
+
+jar {
+    archiveFileName = "Gregdustry.jar"
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+}

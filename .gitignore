@@ -1,0 +1,15 @@
+# Gradle build outputs
+build/
+.gradle/
+
+# Local dependencies folder (where desktop.jar lives)
+libs/
+
+# IntelliJ IDEA workspace configuration
+.idea/
+*.iml
+out/
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
