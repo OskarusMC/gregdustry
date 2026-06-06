@@ -1,0 +1,6 @@
+type: OreBlock
+name:limestone-ore
+localizedName: "Limestone ore"
+description: "Scattered limestone rocks, gatherable."
+itemDrop: limestone
+variants:3

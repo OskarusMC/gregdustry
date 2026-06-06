@@ -1,0 +1,6 @@
+type:floor
+name:dirt-grass
+localizedName: "Grassy dirt"
+description:"This dirt has some grass, but isn't entirely grass. Classy."
+speedMultiplier: 1
+variants:3

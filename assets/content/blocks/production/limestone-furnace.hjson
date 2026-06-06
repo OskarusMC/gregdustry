@@ -1,0 +1,48 @@
+type: "gregdustry.world.blocks.MultiFactoryType"
+name: "limestone-furnace"
+localizedName: "Limestone furnace"
+description: "A furnace made from stone and clay, capable of producing more complex materials via burning such as bricks or ceramics. Doesn't turn iron into steel. Nor lead into gold, it's not a monkey afterall"
+size: 2
+category: "crafting"
+
+requirements: [
+limestone/50
+clay/100
+]
+
+hasItems: true
+itemCapacity: 40
+
+customData: [
+{
+produces: "ceramics"
+speed: 1200
+amount: 10
+using: [
+{
+name: "clay"
+amount: 20
+}
+{
+name: "wood"
+amount: 2
+}
+]
+}
+{
+produces: "bricks"
+speed: 600
+amount: 10
+using: [
+{
+name: "clay"
+amount: 10
+}
+{
+name: "wood"
+amount: 1
+allowFlammableAlternatives: true
+}
+]
+}
+]

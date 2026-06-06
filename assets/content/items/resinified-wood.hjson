@@ -1,0 +1,7 @@
+name: resinified-wood
+localizedName: Wood
+description: "Wood, commonly cut from trees, aslo grown in bioreclamation domes. This wood has resin"
+hardness: 1
+cost: 1.2
+flammability: 1.2
+color: D9D3C7

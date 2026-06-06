@@ -1,0 +1,19 @@
+type: Conveyor
+name: steam-conveyor
+description: "Your most basic conveyor, as the cogs churn the items move."
+size: 1
+health: 65
+category: distribution
+speed: 0.02             
+displayedSpeed: 2.8    
+
+requirements: [
+  {
+    item: copper
+    amount: 1
+  },
+  {
+    item: limestone
+    amount: 1
+  }
+]

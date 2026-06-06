@@ -1,0 +1,67 @@
+name: tlaltecuhtli
+localizedName: Tlaltecuhtli
+description: KACZKA
+alwaysUnlocked: true
+mesh: {
+  type: NoiseMesh
+  planet: tlaltecuhtli
+  divisions: 7
+  seed: 672137
+  radius: 1.4
+  color1: "6AA95E"
+  color2: "4F8545"
+  octaves: 20
+  persistence: 0.67
+}
+cloudMesh: {
+   type: HexSkyMesh
+   planet: tlaltecuhtli
+   speed: 0.891
+   radius: 0.001
+   divisions: 6
+   color: "eafffd7e"
+   octaves: 3
+   persistence: 0.3
+   scl: 0.78
+   thresh: 0.6
+  }
+orbitRadius: 45
+sectorSize: 3
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+radius: 1.5
+minZoom: 0.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 14513
+bloom: false
+visible: true
+hasAtmosphere: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: "core-shard"
+parent: sun
+atmosphereColor: "#7ef0ff"
+iconColor: "#6F4E37"
+generator: default
+// itemWhitelist: [
+//   bricks,
+//   ceramics,
+//   clay,
+//   copper,
+//   gold,
+//   iron,
+//   limestone,
+//   platinum,
+//   resinified-wood,
+//   steel,
+//   uranium,
+//   wood,
+//   sand
+// ]

@@ -1,0 +1,19 @@
+type: Drill
+name: limestone-drill
+localizedName: "Limestone drill"
+description: "A low tier drill that doesn't do much but it is honest work. Clunky."
+size: 4
+health: 1000
+category: production
+tier: 1
+drillTime: 120
+requirements: [
+  {
+    item: copper,
+    amount: 400
+  },
+  {
+    item: limestone,
+    amount: 400
+  }
+]

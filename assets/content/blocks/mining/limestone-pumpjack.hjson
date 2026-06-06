@@ -1,0 +1,18 @@
+type: Pump
+name: limestone-pump
+localizedName: "Limestone drill"
+description: "Used to extract fluid from vents"
+size: 2
+health: 300
+category: liquid
+pumpAmount: 0.35
+requirements: [
+  {
+    item: copper
+    amount: 100
+  },
+  {
+    item: limestone
+    amount: 100
+  }
+]

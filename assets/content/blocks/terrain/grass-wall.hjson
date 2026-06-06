@@ -1,0 +1,5 @@
+type: StaticWall
+name: grass-wall
+localizedName: "Overgrown wall"
+description:"A wall on which grass has taken root"
+variants:2
